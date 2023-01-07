@@ -1,0 +1,56 @@
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.title {
+	color: #1b5a7d;
+	font-weight: 700;
+	font-size: 43px;
+	line-height: 64px;
+	width: 150px;
+}
+
+.btn {
+	cursor: pointer;
+
+	border-radius: 20px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 18px 32px;
+}
+
+.btnshop {
+	border: none;
+	color: #fff;
+	background-color: #eda415;
+}
+
+.btnmore {
+	margin-left: 20px;
+	color: #316887;
+	border: 1px solid #316887;
+	background-color: #fff;
+}
+
+.rightContainer {
+	position: relative;
+}
+
+.price {
+	position: absolute;
+	bottom: 73px;
+	right: -44px;
+	border-radius: 50%;
+	background-color: #eda415;
+	width: 120px;
+	height: 114.61px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: 21.573px;
+}

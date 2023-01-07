@@ -1,7 +1,11 @@
-import Header from "../../components/Header"
+import BannerSlider from './components/BannerSlider';
+import ItemsSlider from './components/ItemsSlider';
 function HomePage() {
-    return <>
-        <Header/>
-    </>
+	return (
+		<>
+			<BannerSlider />
+			<ItemsSlider />
+		</>
+	);
 }
 export default HomePage;
