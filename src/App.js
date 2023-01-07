@@ -1,11 +1,19 @@
-<<<<<<< HEAD
 import Header from "./components/Header";
-=======
 import './app.css';
->>>>>>> origin/develop
+import {
+	BrowserRouter as Router,
+	Switch,
+	Routes,
+	Route,
+	Link, BrowserRouter
+} from "react-router-dom";
+import HomePage from "./pages/Home/index"
 
 function App() {
-	return <><Header></Header>
+	return <>
+		<Routes>
+			<Route path='/' element={<HomePage/>}/>
+		</Routes>
 	</>
 		;
 }
