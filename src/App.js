@@ -1,6 +1,13 @@
+<<<<<<< HEAD
+
+import Header from "./components/Header";
+import './app.css';
+
+=======
 import './app.css';
 <<<<<<< HEAD
 import ItemsSlider from './pages/Home/components/ItemsSlider';
+>>>>>>> develop
 
 function App() {
 	return (
