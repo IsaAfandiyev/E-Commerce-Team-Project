@@ -1,19 +1,12 @@
 import Header from "./components/Header";
 import './app.css';
-import {
-	BrowserRouter as Router,
-	Switch,
-	Routes,
-	Route,
-	Link, BrowserRouter
-} from "react-router-dom";
 import HomePage from "./pages/Home/index"
+import PageRoutes from "./Routes";
 
 function App() {
 	return <>
-		<Routes>
-			<Route path='/' element={<HomePage/>}/>
-		</Routes>
+
+		<PageRoutes/>
 	</>
 		;
 }
