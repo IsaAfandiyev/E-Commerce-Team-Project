@@ -1,12 +1,8 @@
+import Header from "./components/Header";
 import './app.css';
-import BannerSlider from './pages/Home/components/BannerSlider';
 
 function App() {
-	return (
-		<div className="App">
-			<BannerSlider />
-		</div>
-	);
+	return <div className="App"></div>;
 }
 
 export default App;
