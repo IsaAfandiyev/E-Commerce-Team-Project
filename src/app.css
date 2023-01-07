@@ -1,5 +1,9 @@
 @font-face {
+<<<<<<< HEAD
 	font-family: "Poppins";
+=======
+	font-family: 'Poppins';
+>>>>>>> develop
 	src: url(./assets/fonts/Poppins-Medium.ttf) format('opentype');
 }
 
