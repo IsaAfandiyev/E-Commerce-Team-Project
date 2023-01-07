@@ -14,7 +14,7 @@ export const ProductContext = ({ children }) => {
 		network.getCategories(BASE_URL, 'categories').then((res) => setCategories(res));
 	}, []);
 
-	console.log(categoires);
+	console.log(data);
 
 	const values = {
 		data,

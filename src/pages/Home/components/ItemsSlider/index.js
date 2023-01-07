@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ItemsSlider = () => {
-	return <></>;
+	return <>.</>;
 };
 
 export default ItemsSlider;
