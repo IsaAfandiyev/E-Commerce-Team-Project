@@ -1,5 +1,45 @@
 .container{
-    color: red;
-    height: 100px;
-    background-color: red;
+    background-color: white;
+    display: flex;
+    color: #292D32;
+    padding-top:22.5px;
+    padding-bottom: 22.5px;
+    padding-left: 61px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    justify-content: space-between;
+    padding-right: 61px;
+}
+
+.right{
+    display: flex;
+    gap: 38px;
+}
+
+.store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    cursor: pointer;
+
+}
+
+.track{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    cursor: pointer;
+}
+
+.store img{
+    width: 25px;
+}
+
+.track img{
+    width: 25px;
 }
