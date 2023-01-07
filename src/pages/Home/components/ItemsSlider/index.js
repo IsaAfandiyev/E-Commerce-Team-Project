@@ -3,8 +3,6 @@ import { ProductContext } from '../../../../context/dataContext';
 import styles from './index.module.css';
 
 const ItemsSlider = () => {
-	let { data } = useContext(ProductContext);
-	console.log(data);
 	return (
 		<>
 			<div className={styles.box}>
