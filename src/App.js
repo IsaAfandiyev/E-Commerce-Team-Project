@@ -13,7 +13,6 @@ function App() {
 	return <>
 		<Routes>
 			<Route path='/' element={<HomePage/>}/>
-			<h1>isa</h1>
 		</Routes>
 	</>
 		;
