@@ -1,8 +1,10 @@
 import React, { useContext } from 'react';
-import { ProductContext } from '../../../../context/dataContext';
+import { dataContext } from '../../../../context/dataContext';
 import styles from './index.module.css';
 
 const ItemsSlider = () => {
+	let { data } = useContext(dataContext);
+	console.log(data);
 	return (
 		<>
 			<div className={styles.box}>
