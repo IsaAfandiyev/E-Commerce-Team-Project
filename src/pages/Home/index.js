@@ -1,12 +1,17 @@
 import BannerSlider from './components/BannerSlider';
 import ItemsSlider from './components/ItemsSlider';
-import RandomProducts from "./components/RandomProducts";
+import PopularProducts from './components/PopularProducts';
+import RandomProducts from './components/RandomProducts';
+import styles from './index.module.css';
+
 function HomePage() {
 	return (
-		<>
+		<div className={styles.wrapper}>
 			<BannerSlider />
-			<RandomProducts/>
-		</>
+			<ItemsSlider />
+			<PopularProducts />
+			<RandomProducts />
+		</div>
 	);
 }
 export default HomePage;
