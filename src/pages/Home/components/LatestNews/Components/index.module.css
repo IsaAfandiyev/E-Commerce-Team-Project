@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+.img{
+    margin-right: 30px;
+}
+
+.date{
+    border: 1px solid #C8C8C8;
+    border-radius: 50px;
+    color: #1B5A7D;
+}
+.title{
+    text-align: start;
+    color: #1B5A7D;
+    margin-top: 20px;
+}
+.text{
+    font-size: 12px;
+    text-align: start;
+    color:#1B5A7D ;
+    margin-top: 20px;
+}
+.footer{
+    text-align: start;
+    margin-top: 20px;
+    font-size: 12px;
+    color:#1B5A7D ;
+
+}
