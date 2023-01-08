@@ -1,12 +1,12 @@
 import './app.css';
 import PageRoutes from './Routes';
-import PopularProducts from "./pages/Home/components/PopularProducts";
+import RandomProducts from "./pages/Home/components/RandomProducts";
+
 
 function App() {
 	return (
 		<>
 			<PageRoutes />
-			<PopularProducts/>
 		</>
 	);
 }
