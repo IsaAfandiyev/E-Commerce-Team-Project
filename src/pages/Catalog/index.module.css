@@ -1,0 +1,12 @@
+.wrapper {
+	margin: 0 auto;
+	max-width: 1315px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 70px 0;
+}
+
+.sidebar {
+	margin-right: 30px;
+}

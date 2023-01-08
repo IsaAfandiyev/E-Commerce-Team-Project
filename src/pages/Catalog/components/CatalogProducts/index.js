@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import ProductBox from '../../../../../../components/ProductBox';
-import { dataContext } from '../../../../../../context/dataContext';
+import ProductBox from '../../../../components/ProductBox';
+import { dataContext } from '../../../../context/dataContext';
 import styles from './index.module.css';
 
-const PopularProductsSlider = ({ selectedCategory }) => {
+const CatalogProducts = ({ selectedCategory }) => {
 	let { data } = useContext(dataContext);
 	console.log(data);
 	return (
@@ -12,12 +12,12 @@ const PopularProductsSlider = ({ selectedCategory }) => {
 				data.map((item) =>
 					selectedCategory ? (
 						item.category === selectedCategory && (
-							<div className={styles.wrapper}>
+							<div key={item.id} className={styles.wrapper}>
 								<ProductBox key={item.id} item={item} />
 							</div>
 						)
 					) : (
-						<div className={styles.wrapper}>
+						<div key={item.id} className={styles.wrapper}>
 							<ProductBox key={item.id} item={item} />
 						</div>
 					)
@@ -26,4 +26,4 @@ const PopularProductsSlider = ({ selectedCategory }) => {
 	);
 };
 
-export default PopularProductsSlider;
+export default CatalogProducts;

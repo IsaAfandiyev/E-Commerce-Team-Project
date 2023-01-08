@@ -1,13 +1,12 @@
 .container {
 	border: 0.983537px solid #b6b6b6;
 	border-radius: 20px;
-	padding: 15px 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 308.83px;
-	height: 400px;
+	width: 270.83px;
+	height: 350px;
 }
 
 .container:not(:first-child) {
