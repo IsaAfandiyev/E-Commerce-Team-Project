@@ -21,7 +21,9 @@
     "react-router": "^6.6.1",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
+    "react-swiper": "^0.1.5",
     "styled-components": "^5.3.6",
+    "swiper": "^8.4.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
