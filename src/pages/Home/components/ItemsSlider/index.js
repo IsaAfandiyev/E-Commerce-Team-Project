@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import ItemsSliderInner from './ItemsSliderInner';
 import { Navigation } from 'swiper';
 
-export default function App() {
+export default function ItemsSlider() {
 	let { data } = useContext(dataContext);
 	return (
 		<>
