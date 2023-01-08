@@ -1,8 +1,8 @@
 .container {
-	width: 803px;
+	max-width: 803px;
+	width: 100%;
 	border: 1px solid #b6b6b6;
 	height: 505px;
-	margin-left: 50px;
 	margin-bottom: 50px;
 	border-radius: 16px;
 }
