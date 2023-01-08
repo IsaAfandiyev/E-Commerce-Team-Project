@@ -1,6 +1,7 @@
 import BannerSlider from './components/BannerSlider';
 import ItemsSlider from './components/ItemsSlider';
 import PopularProducts from './components/PopularProducts';
+import RandomProducts from './components/RandomProducts';
 import styles from './index.module.css';
 
 function HomePage() {
@@ -9,6 +10,7 @@ function HomePage() {
 			<BannerSlider />
 			<ItemsSlider />
 			<PopularProducts />
+			<RandomProducts />
 		</div>
 	);
 }
