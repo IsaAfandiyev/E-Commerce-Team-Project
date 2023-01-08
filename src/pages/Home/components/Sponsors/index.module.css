@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    max-width: 430px;
+    border: 1px solid #BABABA;
+    border-radius: 16px;
+    position: relative;
+}
+.sponsorImg{
+    padding: 5px;
+    border: 3px dashed black ;
+    border-radius: 50%;
+    border-color: #EDA415;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sponsorName{
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    right:150px;
+    color: #003F62
+;
+}
+.sponsorText{
+    padding: 20px;
+    background-color: #E2F4FF;
+    margin: 20px;
+    border-radius: 20px;
+}
