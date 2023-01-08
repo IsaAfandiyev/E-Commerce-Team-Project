@@ -6,6 +6,7 @@ import styles from './index.module.css';
 import Specials from "./components/Specials";
 import Sponsors from "./components/Sponsors";
 import AboutUs from "./components/AboutUs";
+import LatestNews from "./components/LatestNews";
 
 function HomePage() {
 	return (
@@ -17,6 +18,7 @@ function HomePage() {
 			<Specials/>
 			<Sponsors/>
 			<AboutUs/>
+			<LatestNews/>
 		</div>
 	);
 }
