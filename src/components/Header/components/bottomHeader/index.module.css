@@ -1,0 +1,43 @@
+.container {
+	display: flex;
+	padding-left: 61px;
+	padding-right: 61px;
+	background-color: #f4f4f4;
+	justify-content: space-between;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.left {
+	display: flex;
+	align-items: center;
+	gap: 12%;
+	width: 60%;
+}
+.list {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #3a3a3a;
+}
+
+.a {
+	text-decoration: none;
+	color: #3a3a3a;
+}
+
+.a:visited {
+	color: #3a3a3a;
+}
+
+.right {
+	display: flex;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	align-items: center;
+}

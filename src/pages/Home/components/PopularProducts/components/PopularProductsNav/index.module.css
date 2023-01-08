@@ -1,0 +1,30 @@
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.title {
+	font-weight: 600;
+	color: #1b5a7d;
+	font-size: 27.38px;
+}
+
+.cotegoriasBtn {
+	border: 1px solid #003f62;
+	border-radius: 20px;
+	background-color: #fff;
+	color: #1b5a7d;
+	font-size: 16.38px;
+	cursor: pointer;
+	padding: 10px 15px;
+}
+
+.cotegoriasBtn:hover {
+	background-color: #1b5a7d;
+	color: #fff;
+}
+
+.cotegoriasBtn:not(:first-child) {
+	margin-left: 15px;
+}

@@ -41,9 +41,7 @@ export const network = {
 		await axiosInstance.get(`${url}/${id}`).then((res) => {
 			response = res.data;
 		});
-		if (response == null) {
-			throw '404 data not found!!';
-		}
+
 		return response;
 	},
 };
