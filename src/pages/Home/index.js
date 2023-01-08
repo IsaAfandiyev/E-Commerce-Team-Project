@@ -3,6 +3,7 @@ import ItemsSlider from './components/ItemsSlider';
 import PopularProducts from './components/PopularProducts';
 import RandomProducts from './components/RandomProducts';
 import styles from './index.module.css';
+import Specials from "./components/Specials";
 
 function HomePage() {
 	return (
@@ -11,6 +12,7 @@ function HomePage() {
 			<ItemsSlider />
 			<PopularProducts />
 			<RandomProducts />
+			<Specials/>
 		</div>
 	);
 }

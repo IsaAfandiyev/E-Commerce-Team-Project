@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    max-width: 1400px;
+    background-color: #E2F4FF;
+    height: 100%;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.freeDelivery{
+    display: flex;
+}
+.freeDeliveryTexts{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.freeDeliveryAbout{
+    font-size: 12px;
+    text-align: center;
+    color: #003F62;
+}
+.freeDeliveryText{
+    color: #003F62;
+}
