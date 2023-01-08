@@ -4,7 +4,6 @@ function HomePage() {
 	return (
 		<>
 			<BannerSlider />
-			<ItemsSlider />
 		</>
 	);
 }
