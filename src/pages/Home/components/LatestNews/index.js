@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import styles from './index.module.css';
 
 import { Pagination } from 'swiper';
-import SliderComponent from './components/SliderComponent';
+import SliderComponent from "../LatestNews/Components/SliderComponent";
 import sliderImg1 from '../../../../assets/images/home/latestNews1.png';
 import sliderImg2 from '../../../../assets/images/home/latestNews2.png';
 
