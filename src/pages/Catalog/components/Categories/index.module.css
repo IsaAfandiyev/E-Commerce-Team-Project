@@ -1,0 +1,30 @@
+.wrapper {
+	width: 300px;
+	margin-left: 20px;
+	border-bottom: 1px solid #bdbdbd;
+	padding-bottom: 20px;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 16.09px;
+	color: #003f62;
+}
+
+.checbox {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 400;
+	font-size: 16.09px;
+	color: #222222;
+	position: relative;
+}
+
+.items {
+	position: absolute;
+	right: 0;
+	top: 7px;
+	font-weight: 400;
+	font-size: 16.09px;
+	color: #222222;
+}

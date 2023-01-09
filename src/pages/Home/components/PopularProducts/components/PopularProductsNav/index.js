@@ -8,7 +8,7 @@ const PopularProductsNav = ({ setSelectedCategory }) => {
 				<p className={styles.title}>Popular products</p>
 			</div>
 			<div className={styles.cotegorias}>
-				<button onClick={() => setSelectedCategory('')} className={styles.cotegoriasBtn}>
+				<button onClick={() => setSelectedCategory()} className={styles.cotegoriasBtn}>
 					All
 				</button>
 				<button onClick={() => setSelectedCategory("men's clothing")} className={styles.cotegoriasBtn}>
