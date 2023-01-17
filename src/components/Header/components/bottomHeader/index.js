@@ -15,7 +15,9 @@ const BottomHeader = () => {
 					<Link className={styles.a} to="/catalog">
 						Catalog
 					</Link>
-					<p>Blog</p>
+					<Link className={styles.a} to="/favorite ">
+						Favorite
+					</Link>
 					<p>Pages</p>
 					<div style={{ width: '100px' }}>About us</div>
 				</div>
