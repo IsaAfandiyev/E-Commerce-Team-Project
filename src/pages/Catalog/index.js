@@ -5,7 +5,7 @@ import CatalogProducts from './components/CatalogProducts';
 import PriceFilter from './components/PriceFilter';
 
 const CatalogPage = () => {
-	const [selectedCategory, setSelectedCategory] = useState('');
+	const [selectedCategory] = useState('');
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.sidebar}>

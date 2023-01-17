@@ -1,0 +1,32 @@
+.wrapper {
+	margin: 50px 10px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fill, minmax(308.83px, 1fr));
+}
+
+.btnDiv {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	cursor: pointer;
+
+	border-radius: 20px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 18px 32px;
+	border: none;
+	color: #fff;
+	background-color: #eda415;
+	border: 1px solid #fff;
+}
+
+.btn:hover {
+	color: #eda415;
+	background-color: #fff;
+	border: 1px solid #eda415;
+}

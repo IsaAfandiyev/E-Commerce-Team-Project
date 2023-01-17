@@ -1,4 +1,4 @@
-import React, { useRef, useState, useContext, useEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
 import './index.css';
@@ -16,7 +16,7 @@ function RandomProductSlider() {
 	const [randomNumber, setRandomNumber] = useState(0);
 	console.log(data);
 
-	useEffect((randomNumber) => {
+	useEffect(() => {
 		setRandomNumber(Math.floor(Math.random() * 20));
 	}, []);
 
